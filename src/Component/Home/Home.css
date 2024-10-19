@@ -1,0 +1,165 @@
+.card-fixed-height {
+    height: 140px; /* Set the fixed height for the card */
+    border-radius: 20px;  
+    padding: 30px;  
+  }
+
+  .card_border{
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  }
+
+  .para_carrer{
+    color: #F66962;
+  }
+  .card_icon{
+    width: 50px;
+  }
+  .card_height {
+    width: 100%; /* Adjust as needed */
+    height: 150px; /* Set a fixed height */
+    overflow: hidden; /* Prevent overflow of content */
+    border-radius: 20px;
+  }
+  
+  .card-img-left {
+    width: 50px; /* Set fixed width for images */
+    height: auto; /* Maintain aspect ratio */
+  }
+  .bg_color{
+    background: linear-gradient(to right, #9ED6FE 100%, #BDB3EB 100%);
+  }
+  .card_height{
+    height: 100%;
+    width: 100%;
+  }
+  .card_img{
+    width: 100%;
+  }
+  .card_width{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* Custom Slick Dots Styling for the custom-slider-dots class */
+
+/* Non-active dots */
+.custom-slider-dots .slick-dots li {
+    margin: 0 30px; /* Adds a gap of 10px between each dot */
+    top: 25px;
+}
+
+.custom-slider-dots .slick-dots li button:before {
+    color: #ffdeda; /* Changes dot color */
+    opacity: 0.5; /* Makes dots semi-transparent */
+    font-size: 14px; /* Adjusts the size of the dots */
+}
+
+/* Active dot design */
+.custom-slider-dots .slick-dots li.slick-active button:before {
+    content: ''; /* Ensures pseudo-element is rendered */
+    color: #f66962; /* Changes active dot color */
+    opacity: 1; /* Fully visible active dot */
+    font-size: 16px; /* Adjust font-size to make the active dot bigger */
+    
+    width: 50px; /* Set custom width for the active dot */
+    height: 15px; /* Set custom height for the active dot */
+    
+    background-color: #f66962; /* Active dot background color */
+    border-radius: 30px; /* Keeps the active dot elliptical */
+    border: 2px solid #ffb3b0; /* Adds a border around the active dot */
+    
+    display: inline-block; /* Ensure dot is displayed */
+    vertical-align: middle; /* Align the dot vertically in the middle */
+}
+.logo-container {
+    padding: 0 10px; /* Adds gap between logos */
+}
+
+.logo-width {
+    max-width: 150px; 
+    display: block;
+    margin: 0 auto; 
+}
+
+.card_course{
+    width: 200px;
+}
+
+@media (max-width: 768px) {
+    .logo-container {
+        padding: 0 5px; 
+    }
+}
+.custom-button {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    border-radius: 12px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.custom-button:hover {
+    background-color: white;
+    color: black;
+}
+
+/* Ensure the link has no underlines or additional styles */
+.custom-button-link {
+    text-decoration: none; /* Remove underline from the link */
+}
+
+.custom-link {
+    color: black;
+    text-decoration: none; /* Removes the underline */
+}
+.footer_padding{
+    padding-bottom: 20px;
+}
+.icon-container {
+    display: flex; /* Enables flexbox */
+    justify-content: center; /* Centers the icon horizontally */
+    align-items: center; /* Centers the icon vertically if needed */
+    margin-bottom: 5px; /* Space between icon and text */
+}
+
+.address-text {
+    display: block; /* Ensures the text appears on a new line */
+    font-size: 14px; /* Adjust font size as needed */
+}
+.footer_icon{
+    width: 30px;
+    margin-right: 10px;
+}
+.phone-numbers a {
+    color: black; /* Set link color to black */
+    text-decoration: none; /* Remove underline */
+}
+
+.phone-numbers a:hover {
+    text-decoration: none; /* Keep underline hidden on hover */
+}
+.underline {
+    border: none; /* Remove default border */
+    height: 3px; /* Set the thickness of the line */
+    background-color: white; /* Set the color of the line */
+    margin: 20px 0; /* Add vertical spacing around the line */
+}
+.courses_img{
+    padding: 20px;
+    border-radius: 30px;
+}
+.companies_text{
+    color: #002058;
+}
+.text_decor{
+    /* position: absolute;
+    bottom: 135px;
+    left: 10%; */
+    color: #1e4261;
+}
+  

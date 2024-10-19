@@ -1,0 +1,57 @@
+.custom-card {
+    width: 200px;        
+    height: 90vh;       
+    overflow: hidden; 
+    position: relative; /* Change to relative for proper positioning */
+    margin-left: 30px;  /* Use margin instead of left for better control */
+    border-radius: 20px;
+    background-color: #727272;
+    overflow-y: scroll; /* Allow vertical scrolling */
+}
+
+.custom-card::-webkit-scrollbar {
+    display: none; /* Hide scrollbar in Chrome, Safari, and Opera */
+}
+
+.custom-card {
+    -ms-overflow-style: none; /* Hide scrollbar in Internet Explorer and Edge */
+    scrollbar-width: none;    /* Hide scrollbar in Firefox */
+}
+
+
+.custom-card1 {
+    width: 70vw;        
+    overflow: hidden; 
+    position: relative; /* Change to relative for proper positioning */
+    margin-left: 50px;  /* Use margin instead of left for better control */
+    border: none;   
+}
+
+.custom-card .card-body {
+    transform: rotate(90deg); 
+    transform-origin: left top;
+    width: 100vh;              
+    height: 50px;          
+}
+
+/* Optional media query for smaller screens */
+@media (max-width: 576px) {
+    .custom-card {
+        width: 80vw; /* Responsive width */
+        height: auto; /* Adjust height */
+        margin-left: 0; /* Center on mobile */
+    }
+
+    .custom-card1 {
+        width: 80vw; /* Responsive width */
+        height: auto; /* Adjust height */
+        margin-left: 0; /* Center on mobile */
+    }
+}
+
+.logo_img{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}

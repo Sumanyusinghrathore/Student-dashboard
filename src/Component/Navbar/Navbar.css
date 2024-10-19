@@ -1,0 +1,43 @@
+.website_color{
+    color: #FF4667;
+}
+.bell_icon{
+    width: 40px;
+    height: 40px;
+}
+.nav-item {
+    margin-right: 30px; /* Adjust spacing as needed */
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  .dropdown-toggle::after{
+    content:none
+  }
+  .profile {
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .profile-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .profile-name {
+    font-size: 16px;
+    font-weight: bold;
+    color: #002D62; /* Dark navy color */
+  }
+  
+  .profile-role {
+    font-size: 14px;
+    color: #6c757d; /* Grayish color */
+  }
+  

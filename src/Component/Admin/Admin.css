@@ -1,0 +1,14 @@
+.login_form{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.btn.full-width {
+    width: 100%;
+    background-color: gray;
+    color: white;
+    border: none;
+}
+
+.btn.full-width:hover {
+    background-color: darkgray;
+}

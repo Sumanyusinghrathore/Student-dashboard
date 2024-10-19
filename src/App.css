@@ -1,0 +1,220 @@
+.text-gray{
+  color: gray;
+}
+.bg-gray{background-color: gray;}
+.fs-16 {
+  font-size: 16px;
+}
+.fs-18 {
+  font-size: 18px;
+}
+.font-20 {
+  font-size: 20px;
+}
+.font-22 {
+  font-size: 22px;
+}
+.fs-24 {
+  font-size: 24px;
+}
+.fs-26 {
+  font-size: 26px;
+}
+.fs-32 {
+  font-size: 32px;
+}
+.font-34 {
+  font-size: 34px;
+}
+.font-36 {
+  font-size: 36px;
+}
+.fs-48 {
+  font-size: 48px;
+}
+
+/* Default (Desktop - Full HD) */
+body {
+  font-size: 20px; /* Base font size for body text */
+  font-weight: 400;
+}
+
+.font-128-64 {
+  font-size: 128px;
+  font-weight: 450;
+}
+.font-96-30 {
+  font-size: 96px;
+  font-weight: 400;
+}
+
+.font-48-30 {
+  font-size: 48px;
+  font-weight: 500;
+}
+
+.font-36-24 {
+  font-size: 40px;
+  font-weight: 450;
+}
+
+.font-34-19 {
+  font-size: 34px;
+  font-weight: 450;
+}
+
+.font-28-20 {
+  font-size: 30px;
+  font-weight: 450;
+}
+
+.font-24-16 {
+  font-size: 24px;
+  font-weight: 400;
+}
+.font-22-16 {
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.font-20-16 {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+
+/* Laptop */
+@media (max-width: 1366px) {
+  .font-128-64 {
+    font-size: 100px;
+  }
+
+  .font-96-30 {
+    font-size: 72px;
+  }
+
+  .font-48-30 {
+    font-size: 42px;
+  }
+
+  .font-36-24 {
+    font-size: 36px;
+  }
+
+  .font-34-19 {
+    font-size: 30px;
+  }
+
+  .font-28-20 {
+    font-size: 24px;
+  }
+
+  .font-24-16 {
+    font-size: 20px;
+  }
+
+  .font-22-16 {
+    font-size: 20px;
+  }
+
+  .font-20-16 {
+    font-size: 18px;
+  }
+
+}
+
+/* iPad */
+@media (max-width: 1280px) {
+  .font-128-64 {
+    font-size: 88px;
+  }
+
+  .font-96-30 {
+    font-size: 54px;
+  }
+
+  .font-48-30 {
+    font-size: 36px;
+  }
+
+  .font-36-24 {
+    font-size: 30px;
+  }
+
+  .font-34-19 {
+    font-size: 26px;
+  }
+
+  .font-28-20 {
+    font-size: 22px;
+  }
+
+  .font-24-16 {
+    font-size: 18px;
+  }
+
+  .font-22-16 {
+    font-size: 18px;
+  }
+
+  .font-20-16 {
+    font-size: 16px;
+  }
+
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+
+  .font-128-64 {
+    font-size: 55px;
+  }
+
+  .font-96-30 {
+    font-size: 38px;
+  }
+
+  .font-48-30 {
+    font-size: 28px;
+  }
+
+  .font-36-24 {
+    font-size: 24px;
+  }
+
+  .font-34-19 {
+    font-size: 20px;
+  }
+
+  .font-28-20 {
+    font-size: 18px;
+  }
+
+  .font-24-16 {
+    font-size: 16px;
+  }
+
+  .font-22-16 {
+    font-size: 16px;
+  }
+
+  .font-20-16 {
+    font-size: 14px;
+  }
+}
+
+.fw-bold {
+  font-weight: 450 !important;
+}
+.fw-400 {
+  font-weight: 400 !important;
+}
+.fw-bolder {
+  font-weight: 600 !important;
+}
+.fw-500 {
+  font-weight: 500 !important;
+}
+.fw-700 {
+  font-weight: 700 !important;
+}
